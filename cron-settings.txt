@@ -1,0 +1,6 @@
+name: tirupati-<YOUR_AWB>
+schedule: */10 * * * *
+monitor: tirupati_track.py
+continuity: true
+deliver: discord:<YOUR_DM_OR_CHANNEL_ID>
+prompt_file: cron-prompt.txt
